@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+#define _CRT_SECURE_NO_WARNINGS //в мене видавало помилки з strcpy, тому використала #define _CRT_SECURE_NO_WARNINGS
 #include "CPU.h"
 #include <cstring>
 CPU::CPU(const char* model, double frequency) 
